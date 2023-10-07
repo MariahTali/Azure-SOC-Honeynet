@@ -32,9 +32,18 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+NSG ALLOWED INBOUND MALICIOUS FLOWS<br>
+<img width="1135" alt="Screenshot 2023-10-07 at 3 54 37 PM" src="https://github.com/MariahTali/Azure-SOC-Honeynet/assets/76408932/b4e4a8ba-8172-42b4-b593-dc53064e4f32"><br>
+
+LINUX SYSLOG AUTH FAILURES<BR>
+<img width="1081" alt="Screenshot 2023-10-07 at 3 55 40 PM" src="https://github.com/MariahTali/Azure-SOC-Honeynet/assets/76408932/6ec6533e-a816-4e4a-bd4d-63cbe0d0fc01"><br>
+
+WINDOWS RDP/SMB AUTH FAILURES<br>
+<img width="1141" alt="Screenshot 2023-10-07 at 3 56 32 PM" src="https://github.com/MariahTali/Azure-SOC-Honeynet/assets/76408932/f16baaa1-00a2-4f97-a03b-86a53789b0a5"><br>
+
+MSSQL AUTH FAILURES
+<img width="956" alt="Screenshot 2023-10-07 at 3 53 36 PM" src="https://github.com/MariahTali/Azure-SOC-Honeynet/assets/76408932/b60d8046-6ff0-4c20-bb28-ff513f8f9502"><br>
 
 ## Metrics Before Hardening / Security Controls
 
